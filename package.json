@@ -6,7 +6,8 @@
     "author": "Alireza Naghdipour <alirezanqp@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "lite-server"
+        "start": "lite-server",
+        "build": "tsc app.ts"
     },
     "dependencies": {
         "lite-server": "^2.6.1"
