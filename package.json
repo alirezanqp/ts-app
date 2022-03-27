@@ -2,7 +2,13 @@
     "name": "ts-app",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "https://github.com/alirezanqp/typescript-learn.git",
+    "repository": "https://github.com/alirezanqp/ts-app.git",
     "author": "Alireza Naghdipour <alirezanqp@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "scripts": {
+        "start": "lite-server"
+    },
+    "dependencies": {
+        "lite-server": "^2.6.1"
+    }
 }
